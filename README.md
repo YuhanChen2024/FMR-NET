@@ -11,7 +11,20 @@
 The low-light image enhancement algorithm aims to solve the problem of poor contrast and low brightness of images in low-light environments. Although many image enhancement algorithms have been proposed, they still face the problems of loss of signifcant features in the enhanced image, inadequate brightness improvement, and a large number of algorithm-specifc parameters. To solve the above problems, this paper proposes a Fast Multi-scale Residual Network (FMR-Net) for low-light image enhancement. By superimposing highly optimized residual blocks and designing branching structures, we propose light-weight backbone networks with only 0.014M parameters. In this paper, we design a plug-and-play fast multi-scale residual block for image feature extraction and inference acceleration. Extensive experimental validation shows that the algorithm in this paper can improve the brightness and maintain the contrast of low-light images while keeping a small number of parameters, and achieves superior performance in both subjective vision tests and image quality tests compared to existing methods.
 
 ## Getting Started
-
+### Default Directory Structure
+```
+dataset_XXX/
+|---high
+|   |---high
+|        |---1.jpg
+|        |---2.jpg
+|        |---....jpg
+|---low
+|   |---low
+|        |---1.jpg
+|        |---2.jpg
+|        |---....jpg
+```
 ### Installation
 
 1. Clone FMR-NET.
